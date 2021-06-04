@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "conpress/bin/python"
+    "python.pythonPath": "conpress/bin/python",
+    "python.autoComplete.extraPaths": ["conpress/bin/python"]
 }
