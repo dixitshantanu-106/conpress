@@ -1,0 +1,106 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	font-size: 20px;
+	overflow: hidden;
+	color: white;
+	font-family: 'Flamenco', cursive;
+	background: url("/static/img/background-image1.jpg");
+}
+.container-fluid
+{
+	padding: 0 250px;
+}
+h3
+{
+	color: #FFFFFF;
+	font-size: 140%;
+	font-weight: bold;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 120px;
+}
+.container
+{
+	padding: 25px;
+	margin-top: 10%;
+	height: 300px;
+	border: 1px dotted #FFE4B5;
+}
+.download
+{
+	justify-content: center;
+	padding: 90px 37% 15px 30%;
+	max-width: auto;
+} 
+button
+{
+	background-color: #F4B9B8;
+	padding: 5% 7%;
+	margin: 0 20%;
+	width: 230px;
+	border-radius: 50px;
+	color: #000;
+}
+button:hover
+{
+	background-color: #FB8DA0;
+}
+	/* Media Queries */
+
+@media only screen and (max-width: 1180px)
+{
+	.container-fluid
+	{
+		padding: 30px;
+	}
+	
+}
+@media only screen and (max-width: 998px)
+{
+	h3
+	{
+		font-size: 160%;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	h3
+	{
+		font-size: 130%;
+	}
+	.download
+	{
+		margin-left: -40px;
+	}
+
+}
+@media only screen and (max-width: 480px)
+{
+	.container-fluid
+	{
+		padding: 25px;
+	}
+
+	h3
+	{
+		font-size: 120%;
+		text-align: center;
+	}
+	.download
+	{
+		margin-left: -40px;
+	}
+	button
+	{
+		margin: 10px 1%;
+	}
+	
+}

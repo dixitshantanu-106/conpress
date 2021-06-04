@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<link rel="stylesheet" type="text/css" href="/static/css/download.css">
+	<title> File Download </title>
+{% endblock %}
+
+{% block body %}
+	<form action="\download" method="GET">
+		<div class="container-fluid">
+			<div class="nav">
+				<h3 class="font-weight-bold"> Click here to download the file... </h1> 
+			</div>
+			<div class="container">
+				<div class="download">
+					<a href="#" target="_blank"> 
+						<button> Download &nbsp;  <span class= "glyphicon glyphicon-download"> </span> </button> 
+					</a>
+				</div>
+			</div>
+		</div>
+	</form>
+{% endblock %}
+	

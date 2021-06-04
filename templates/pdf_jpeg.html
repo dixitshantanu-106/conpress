@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<link rel="stylesheet" type="text/css" href="/static/css/secondary.css">
+	<title>PDF TO JPEG</title>	
+{% endblock %}
+
+{% block body %}
+<form method="post" action="/converted" enctype="multipart/form-data">
+	<div class="container-fluid">
+		<div class="nav">
+			<h1 class="font-weight-bold">PDF TO JPEG Converter </h1>
+		</div>
+		<div class="container">
+			<div class="file-upload-wrapper">
+				  <input type="file" name="ipfile" class="file-upload" data-max-file-size="20M" />
+			</div>
+			<div class="upload">
+				<a href="/converted"><button> Here <span class= "glyphicon glyphicon-upload"> </span></button></a>
+			</div>
+		</div>
+	</div>
+</form>
+{% endblock %}
